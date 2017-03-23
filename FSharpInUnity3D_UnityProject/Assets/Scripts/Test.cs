@@ -12,11 +12,11 @@ using FSharpCore;
 
 namespace Test
 {
-    public class Test : MonoBehaviour
+    public class Test : MainWindow
     {
         private void Awake()
         {
-            Debug.LogError(new Class1().X);
+
         }
 
         private void Start()
